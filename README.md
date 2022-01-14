@@ -1,13 +1,13 @@
 # Why Testing Terminology?
 
-- Generally speaking, shared language or set of terms is a must for two parties to be able to communicate with each other well, and it also relevant when talking about testing code.
-- Technically modeling the different types of testing objects help any developer to know what situations he probably will  face sooner or later.
+- It is negligible what programming languages or technologies one is using, The terminology is about having a shared set of conceptual terms that one can communicate with others and although it is technically, both parties will understand clearly each other on the higher level discussion, and it is applies while testing code as well.
+- A technical modeling of the different types of testing objects possible, will help any developer to understand clearly what testing possibilities he/she will face sooner or later.
 
 ## TestDouble - Unit Testing Terminology
 
 Test Double is a generic term for any case where you replace a production object for testing purposes.
 
-There are various kinds of double that Gerard lists:
+There are various kinds of double:
 
 - **`Dummy`** objects are passed around but never actually used. Usually they are just used to fill parameter lists.
 - **`Fake`** objects actually have working implementations, but usually take some shortcut which makes them not suitable for production (an InMemoryTestDatabase is a good example).
