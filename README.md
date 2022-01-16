@@ -15,4 +15,8 @@ There are various kinds of double:
 - **`Spies`** are stubs that also record some information based on how they were called. One form of this might be an email service that records how many messages it was sent.
 - **`Mocks`** are pre-programmed with expectations which form a specification of the calls they are expected to receive. They can throw an exception if they receive a call they don't expect and are checked during verification to ensure they got all the calls they were expecting.
 
+## Examples
+
+[TBD]()
+
 Inspired by [Martin Fowler](https://martinfowler.com) blog.
